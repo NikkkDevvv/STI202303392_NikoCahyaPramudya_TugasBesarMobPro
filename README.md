@@ -67,7 +67,7 @@ Ikuti langkah ini untuk menjalankan aplikasi di mesin lokal Anda:
 
 | Beranda (List) | Tambah Data | Peta Lokasi | Detail Wisata |
 |:---:|:---:|:---:|:---:|
-| ![Beranda](screenshots/monas.jpeg) | ![Form](screenshots/tambah.jpeg) | ![Peta](screenshots/peta.jpeg) | ![Detail](screenshots/detail.jpeg) |
+| ![Beranda](screenshots/monas.jpeg) | ![Form](screenshots/tambah.jpeg) | ![Peta](screenshots/peta.png) | ![Detail](screenshots/detail.png) |
 
 
 ## 📝 Catatan Teknis (Disclaimer)
