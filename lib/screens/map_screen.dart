@@ -58,23 +58,30 @@ class _MapScreenState extends State<MapScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // Cek apakah halaman ini bisa di-back atau tidak
+    final bool canPop = Navigator.canPop(context);
+
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        leading: Container(
-          margin: const EdgeInsets.only(left: 10, top: 10),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            shape: BoxShape.circle,
-            boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 8)],
-          ),
-          child: IconButton(
-            icon: const Icon(Icons.arrow_back, color: Colors.black87),
-            onPressed: () => Navigator.pop(context),
-          ),
-        ),
+        // PERBAIKAN DI SINI:
+        // Tombol Back hanya muncul jika ada halaman sebelumnya (canPop == true)
+        leading: canPop 
+            ? Container(
+                margin: const EdgeInsets.only(left: 10, top: 10),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                  boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 8)],
+                ),
+                child: IconButton(
+                  icon: const Icon(Icons.arrow_back, color: Colors.black87),
+                  onPressed: () => Navigator.pop(context),
+                ),
+              )
+            : null, // Jika dari menu bawah, tombol back hilang
         actions: [
           Container(
             margin: const EdgeInsets.only(right: 10, top: 10),
