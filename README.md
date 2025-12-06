@@ -9,7 +9,7 @@ Berikut adalah kelengkapan tugas sesuai instruksi:
 
 * 📱 **Download APK:** [Klik di sini untuk unduh file .apk](https://drive.google.com/drive/folders/1LjjL3-G7cGzTNe2ffQSWEC65ZQBjgl9j?usp=sharing)
 * 🎥 **Video Presentasi:** [Tonton Demo di YouTube](MASUKKAN_LINK_YOUTUBE_DISINI)
-* 📄 **Dokumen Laporan:** [Lihat PDF Laporan](MASUKKAN_LINK_PDF_DISINI)
+* 📄 **Dokumen Laporan:** [Lihat PDF Laporan](https://drive.google.com/drive/folders/1Pu1iMbnLGnWoM3nb-jGyT50lq8ZEFZMH?usp=sharing)
 
 ---
 
