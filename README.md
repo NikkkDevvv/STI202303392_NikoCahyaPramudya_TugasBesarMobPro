@@ -80,3 +80,8 @@ Ikuti langkah ini untuk menjalankan aplikasi di mesin lokal Anda:
 * **NIM:** STI202303392
 * **Kelas:** C5.1
 * **Prodi:** Teknik Informatika - STMIK Widya Utama
+
+* **Nama:** Salman Ahzam
+* **NIM:** STI202303781
+* **Kelas:** C5.1
+* **Prodi:** Teknik Informatika - STMIK Widya Utama
